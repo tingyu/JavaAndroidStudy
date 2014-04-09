@@ -1,0 +1,10 @@
+CREATEAUTO=INSERT INTO 'carconfiguration'.'automobiles' ('model' ,'make' ,'basePrice' ,'name')VALUES (%s, %s, %d, %s);
+CREATEOPSET=INSERT INTO 'carconfiguration'.'optionsets' ('id', 'model', 'name') VALUES (%d, %s, %s);
+CREATEOPT=INSERT INTO 'carconfiguration'.'options' ('id', 'opset_id', 'name', 'price') VALUES (NULL, NULL, 'white', '200');
+DELETEAUTO=DELETE FROM 'carconfiguration'.'automobiles' WHERE 'automobiles'.'model' = %s
+DELETEOPSET=DELETE FROM 'carconfiguration'.'optionsets' WHERE 'optionsets'.'id' = 1
+DELETEOPT=DELETE FROM 'carconfiguration'.'options' WHERE 'options'.'id' = 1"
+UPDATEAUTO=UPDATE carconfiguration'.'automobiles' SET 'model'=%s,'make'=%s,'basePrice'=%d,'name'=%s WHERE 1
+UPDATEOPSET=UPDATE 'carconfiguration'.'optionsets' SET 'id'=%d,'model'=%s,'name'=%s WHERE 1
+UPDATEOPT=UPDATE 'carconfiguration'.'options' SET 'id'=%d,'opset_id'=%d,'name'=%s,'price'=%d WHERE 1
+

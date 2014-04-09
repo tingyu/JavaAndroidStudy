@@ -1,0 +1,9 @@
+CREATEAUTO=INSERT INTO automobiles VALUES ('%s', '%s', %d, '%s');
+CREATEOPSET=INSERT INTO optionsets VALUES (%d, '%s', '%s');
+CREATEOPT=INSERT INTO options VALUES (%d, %d, '%s',%d);
+DELETEAUTO=DELETE FROM automobiles WHERE model = '%s';
+DELETEOPSET=DELETE FROM optionsets WHERE id = %d;
+DELETEOPT=DELETE FROM options WHERE id = %d;
+UPDATEAUTO=UPDATE automobiles SET make='%s',basePrice=%d,name='%s' WHERE model='%s';
+UPDATEOPSET=UPDATE optionsets SET name='%s' WHERE id=%d;
+UPDATEOPT=UPDATE options SET name='%s',price=%d WHERE id=%d;

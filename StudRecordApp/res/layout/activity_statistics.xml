@@ -1,0 +1,175 @@
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.studrecordapp.StatisticsActivity"
+    tools:ignore="MergeRootFrame">
+    
+       <!-- tableRow0 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent"
+      android:paddingTop="10dp" 
+      android:id="@+id/tableRow0">
+      <TextView  
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/stats_name" android:textColor="#000" 
+         android:paddingRight="5dp"
+         android:paddingLeft="10dp"
+         android:layout_weight="1" />
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Q1"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Q2"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Q3"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Q4"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView 
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:text="Q5"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+   </TableRow>  
+   
+   
+         <!-- tableRow1 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent"
+      android:paddingTop="10dp" 
+      android:id="@+id/tableRow1">
+      <TextView android:id="@+id/stats_high" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/stats_high" android:textColor="#000" 
+         android:paddingRight="5dp"
+         android:paddingLeft="10dp"
+         android:layout_weight="1" />
+      <TextView android:id="@+id/q1HighTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q2HighTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q3HighTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q4HighTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q5HighTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+   </TableRow>  
+   
+   
+         <!-- tableRow2 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent"
+      android:paddingTop="10dp" 
+      android:id="@+id/tableRow2">
+      <TextView android:id="@+id/stats_low" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/stats_low" android:textColor="#000" 
+         android:paddingRight="5dp"
+         android:paddingLeft="10dp"
+         android:layout_weight="1" />
+      <TextView android:id="@+id/q1LowTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q2LowTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q3LowTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q4LowTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q5LowTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+   </TableRow>  
+   
+   
+            <!-- tableRow3 -->
+   <TableRow android:layout_height="wrap_content" 
+      android:layout_width="match_parent"
+      android:paddingTop="10dp" 
+      android:id="@+id/tableRow3">
+      <TextView android:id="@+id/stats_avg" 
+         android:layout_width="wrap_content" 
+         android:layout_height="wrap_content" 
+         android:text="@string/stats_avg" android:textColor="#000" 
+         android:paddingRight="5dp"
+         android:paddingLeft="10dp"
+         android:layout_weight="1" />
+      <TextView android:id="@+id/q1AvgTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q2AvgTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q3AvgTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q4AvgTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+      <TextView android:id="@+id/q5AvgTextView"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_span="1"
+          android:layout_weight="1"/>
+   </TableRow>  
+
+</TableLayout>
+
+

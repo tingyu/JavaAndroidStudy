@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ArtistApp</string>
+    <string name="title_section1">Main Page</string>
+    <string name="title_section2">Songs</string>
+    <string name="title_section3">Videos</string>
+    <string name="title_section4">WallPaper</string>
+    <string name="title_section5">Mailing List</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_songs">SongsActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_video">VideoActivity</string>
+    <string name="title_activity_wallpaper">WallpaperActivity</string>
+    <string name="title_activity_mailing_list">MailingListActivity</string>
+    
+    <string name="name">Avril Lavigne</string>
+    <string name="link">http://www.avrillavigne.com/us/home</string>
+    <string name="contact_number">(310) 288-1777</string>
+    <string name="contact_address">ReignDeer Entertainment, 9220 Sunset Blvd, Suite 210, West Hollywood, CA 90069, USA </string>
+    <string name="email_address">AvrilLavigne@gmail.com</string>
+    
+    <string name="radioButton1">Let Me Go</string>
+    <string name="radioButton2">When Youre Gone</string>
+    <string name="radioButton3">Wish You Were Here</string>
+    
+    <string name="setWallpaper">Set As Wallpaper</string>
+    <string name="mailingListLable">Get on my mailing list:</string>
+    <string name="launchEmail">Launch Email</string>
+    
+    <string name="videoRadioButton1">Let Me Go</string>
+    <string name="videoRadioButton2">When Youre Gone</string>
+    <string name="videoRadioButton3">Wish You Were Here</string>
+    <string name="buttonVideoPlay">Play Video</string>
+
+    <string name="likes">likes: cats</string>
+    <string name="dislikes">dislikes: lip sync at her concerts</string>
+
+</resources>

@@ -1,0 +1,60 @@
+Client is up...
+Handling session with localhost:4448
+Server: Please upload a txt file or Properties file
+property_Ford.txt
+Client: property_Ford.txt
+Server: Receive the file and Create Automobile object Successfully. Please choose upload another file(u) or select model(s)
+u
+Client: u
+Server: Please upload a txt file or Properties file
+property_jetta.txt
+Client: property_jetta.txt
+Server: Receive the file and Create Automobile object Successfully. Please choose upload another file(u) or select model(s)
+s
+Client: s
+Server: Models are: Focus Wagon ZTW,Jetta, Please input one model name
+Jetta
+Client: Jetta
+Property in Automobile. Model: Jetta. Make: Volkswagen. Name: null. Baseprice: 20000.OptionSet: 
+Property in OptionSet. Name: Color. Option:
+name: Black. price: 100
+name: white. price: 200
+name: red. price: 300
+
+Property in OptionSet. Name: Transmission. Option:
+name: Manual. price: 80
+name: Automatic. price: 150
+
+Property in OptionSet. Name: Brakes. Option:
+name: Regular. price: 100
+name: ABS. price: 200
+name: ABS with Advance Trac. price: 400
+
+Property in OptionSet. Name: Side Impact Air Bags. Option:
+name: present. price: 500
+name: not present. price: 0
+
+Property in OptionSet. Name: Power Moonroof. Option:
+name: present. price: 300
+name: not present. price: 0
+
+Please choose the optionSet and Option to configure the car
+Please choose the Color:
+Black
+Please choose the Transmission:
+Manual
+Please choose the Brakes:
+ABS
+Please choose the Side Impact Air Bags:
+present
+Please choose the Power Moonroof:
+present
+Choices are:
+Color: Black
+Transmission: Manual
+Brakes: ABS
+Side Impact Air Bags: present
+Power Moonroof: present
+Prices are:
+21180
+Exit the Client
